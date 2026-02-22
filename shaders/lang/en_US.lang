@@ -1,0 +1,87 @@
+option.PIXEL_SIZE = Pixel Density
+value.PIXEL_SIZE.16.0 = Super Chunky
+value.PIXEL_SIZE.512.0 = Smooth
+
+option.SAMPLING_MODE = Sampling Mode
+value.SAMPLING_MODE.0 = Single Pixel
+value.SAMPLING_MODE.1 = Average
+
+option.SAMPLE_STEP = Average Quality
+value.SAMPLE_STEP.1.0 = Perfect
+value.SAMPLE_STEP.2.0 = High
+value.SAMPLE_STEP.4.0 = Medium
+value.SAMPLE_STEP.6.0 = Low
+value.SAMPLE_STEP.8.0 = Potato
+
+option.DITHER_STRENGTH = Dither Strength
+
+option.COLOR_LEVELS = Color Depth
+value.COLOR_LEVELS.-1.0 = Monochrome
+value.COLOR_LEVELS.2.0 = 1-Bit (8 Colors)
+value.COLOR_LEVELS.4.0 = 2-Bit (64 Colors)
+value.COLOR_LEVELS.8.0 = 3-Bit (512 Colors)
+value.COLOR_LEVELS.16.0 = 4-Bit (4096 Colors)
+value.COLOR_LEVELS.32.0 = 5-Bit (32,768 Colors)
+value.COLOR_LEVELS.64.0 = 6-Bit (262,144 Colors)
+value.COLOR_LEVELS.128.0 = 7-Bit (2,097,152 Colors)
+value.COLOR_LEVELS.256.0 = 8-Bit (Full Color)
+
+option.MONO_THRESHOLD = Monochrome Threshold
+
+option.SQUARE_PIXELS = Square Pixels
+
+option.PIXEL_ROUNDNESS = Pixel Roundness
+
+option.CLEAR_LINES = Clear Lines
+
+option.LINE_THICKNESS = Block Outline Thickness
+value.LINE_THICKNESS.-1.0 = Auto
+
+option.GRID_GAP = Pixel Gap
+
+option.CONTRAST = Contrast
+
+option.SATURATION = Saturation
+
+option.DITHER_MODE = Dither Mode
+value.DITHER_MODE.0 = Bayer (Ordered)
+value.DITHER_MODE.1 = White Noise
+
+option.CRT_SCANLINES = CRT Scanlines
+option.CRT_SCANLINES.comment = Adds horizontal darkening to simulate an old-school tube monitor.
+
+option.CRT_STRENGTH = Scanline Intensity
+
+option.VIGNETTE = Vignette
+
+option.VIGNETTE_STRENGTH = Vignette Strength
+
+option.IGNORE_HAND = Ignore Hand
+
+option.IGNORE_CLOUDS = Ignore Clouds
+
+option.IGNORE_ENTITIES = Ignore Entities
+
+option.IGNORE_PARTICLES = Ignore Particles
+
+option.IGNORE_WATER = Ignore Liquids
+
+option.IGNORE_TERRAIN = Ignore Blocks
+
+option.IGNORE_SKY = Ignore Sky
+
+# Screens
+
+screen.PIXEL_SHAPE = Pixel Shape
+screen.RESOLUTION = Resolution and Sampling
+screen.DITHERING = Dithering
+screen.EFFECTS = Color and Effects
+screen.OVERLAY = Overlay
+screen.IGNORES = Ignoring
+
+# Profiles
+
+profile.DEFAULT = Default
+profile.ROUND_MONOCHROME = Round Monochrome
+profile.GAMEBOY = Gameboy
+profile.RETRO_PC = Retro PC
