@@ -4,6 +4,10 @@
 
 #include "settings.glsl"
 
+#if !defined(WATER) && defined(IGNORE_TERRAIN)
+#define NO_PIXELATE
+#endif
+
 uniform sampler2D texture;
 varying vec4 glColor;
 varying vec3 normal;
@@ -33,7 +37,7 @@ void main() {
     shadow *= (absN.x * 0.75 + absN.z * 0.9 + max(0.0, normal.y) * 1.0 + max(0.0, -normal.y) * 0.5);
     albedo.rgb *= shadow;
 
-#ifdef IGNORE_TERRAIN
+#ifdef NO_PIXELATE
     fragColor = vec4(0.0);
     fragMaskColor = albedo;
     fragMask = vec4(0.0, 0.0, 1.0, 1.0);
