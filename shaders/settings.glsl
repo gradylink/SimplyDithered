@@ -26,6 +26,7 @@
 // #define IGNORE_WATER
 // #define IGNORE_TERRAIN
 // #define IGNORE_SKY
+// #define IGNORE_WEATHER
 
 // Because I always use defined(CLEAR_LINES) || defined(IGNORE_TERRAIN) and Iris doesn't know how to handle that.
 #ifdef CLEAR_LINES

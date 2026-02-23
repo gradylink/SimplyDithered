@@ -59,6 +59,7 @@ option.VIGNETTE_STRENGTH = Vignette Strength
 option.IGNORE_HAND = Ignore Hand
 
 option.IGNORE_CLOUDS = Ignore Clouds
+option.IGNORE_CLOUDS.comment = Incompatible with Better Clouds
 
 option.IGNORE_ENTITIES = Ignore Entities
 
@@ -69,6 +70,9 @@ option.IGNORE_WATER = Ignore Liquids
 option.IGNORE_TERRAIN = Ignore Blocks
 
 option.IGNORE_SKY = Ignore Sky
+
+option.IGNORE_WEATHER = Ignore Weather
+option.IGNORE_WEATHER.comment = Incompatible with Particle Rain
 
 # Screens
 
